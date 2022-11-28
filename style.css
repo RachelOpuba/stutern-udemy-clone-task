@@ -25,10 +25,12 @@ a {
   text-decoration: none;
 }
 .page-wraper {
+  max-width: 1440px;
   min-width: 60rem;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .header {
@@ -288,11 +290,17 @@ color: #5624d0;
 
 .hero-sec {
   position: relative;
-  /* z-index: 0; */
+  margin: 0 auto;
+  width: 100%;
+  /* border: 2px solid red; */
 }
 
 .hero-img {
   z-index: 1;
+}
+
+.hero-img img{
+  width: 100%;
 }
 
 .hero-sec-text {
